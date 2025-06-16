@@ -1,0 +1,1681 @@
+[2025-06-16 05:04:06] [Уведомление] A session had already been started - ignoring session_start() в D:\OpenServer\domains\last\header.php:2
+Context: Array
+(
+    [_GET] => Array
+        (
+        )
+
+    [_POST] => Array
+        (
+        )
+
+    [_COOKIE] => Array
+        (
+            [PHPSESSID] => mk6a0eqf4ipf6uaba49hcovrd0nn4lmh
+            [theme] => contrast
+        )
+
+    [_FILES] => Array
+        (
+        )
+
+    [_SERVER] => Array
+        (
+            [HTTP_HOST] => last
+            [HTTP_CONNECTION] => keep-alive
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+            [HTTP_REFERER] => http://last/login.php
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate
+            [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+            [HTTP_COOKIE] => PHPSESSID=mk6a0eqf4ipf6uaba49hcovrd0nn4lmh; theme=contrast
+            [PATH] => d:\openserver\modules\php\PHP_7.1\ext;d:\openserver\modules\php\PHP_7.1\pear;d:\openserver\modules\php\PHP_7.1\pear\bin;d:\openserver\modules\php\PHP_7.1;d:\openserver\modules\wget\bin;d:\openserver\modules\database\MySQL-5.7\bin;d:\openserver\modules\http\Apache_2.4-PHP_7.0-7.1\bin;d:\openserver\modules\http\Apache_2.4-PHP_7.0-7.1;C:\Windows\system32;C:\Windows;C:\Windows\system32\Wbem;C:\Windows\SysWOW64
+            [SystemRoot] => C:\Windows
+            [COMSPEC] => C:\Windows\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\Windows
+            [SERVER_SIGNATURE] => 
+            [SERVER_SOFTWARE] => Apache
+            [SERVER_NAME] => last
+            [SERVER_ADDR] => 127.0.0.1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => 127.0.0.1
+            [DOCUMENT_ROOT] => D:/OpenServer/domains/last
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => D:/OpenServer/domains/last
+            [SERVER_ADMIN] => [no address given]
+            [SCRIPT_FILENAME] => D:/OpenServer/domains/last/register.php
+            [REMOTE_PORT] => 55919
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => GET
+            [QUERY_STRING] => 
+            [REQUEST_URI] => /register.php
+            [SCRIPT_NAME] => /register.php
+            [PHP_SELF] => /register.php
+            [REQUEST_TIME_FLOAT] => 1750039446.926
+            [REQUEST_TIME] => 1750039446
+        )
+
+    [pdo] => PDO Object
+        (
+        )
+
+    [domains] => Array
+        (
+            [0] => gmail.com
+            [1] => yahoo.com
+            [2] => outlook.com
+            [3] => mail.ru
+            [4] => example.com
+        )
+
+    [posStmt] => PDOStatement Object
+        (
+            [queryString] => SELECT `id_Д`, `Название_Д` FROM `должности` ORDER BY `Название_Д`
+        )
+
+    [positions] => Array
+        (
+            [7] => Администратор
+            [3] => Аналитик
+            [9] => Б/Р
+            [2] => Бухгалтер
+            [1] => Дизайнер
+            [8] => Директор
+            [5] => Менеджер
+            [4] => Программист
+            [6] => Тестировщик
+        )
+
+    [errors] => Array
+        (
+        )
+
+    [_SESSION] => Array
+        (
+            [captcha_letters] => Array
+                (
+                    [0] => W
+                    [1] => S
+                    [2] => I
+                    [3] => Z
+                    [4] => Z
+                )
+
+            [captcha_answer] => ZZISW
+        )
+
+    [host] => localhost
+    [db] => otchDB
+    [user] => root
+    [pass] => 
+    [charset] => utf8mb4
+    [dsn] => mysql:host=localhost;dbname=otchDB;charset=utf8mb4
+    [options] => Array
+        (
+            [3] => 2
+            [19] => 2
+        )
+
+    [captcha] => Array
+        (
+            [0] => W
+            [1] => S
+            [2] => I
+            [3] => Z
+            [4] => Z
+        )
+
+)
+
+
+[2025-06-16 05:04:06] [Уведомление] Undefined variable: email_dom в D:\OpenServer\domains\last\register.php:279
+Context: Array
+(
+    [_GET] => Array
+        (
+        )
+
+    [_POST] => Array
+        (
+        )
+
+    [_COOKIE] => Array
+        (
+            [PHPSESSID] => mk6a0eqf4ipf6uaba49hcovrd0nn4lmh
+            [theme] => contrast
+        )
+
+    [_FILES] => Array
+        (
+        )
+
+    [_SERVER] => Array
+        (
+            [HTTP_HOST] => last
+            [HTTP_CONNECTION] => keep-alive
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+            [HTTP_REFERER] => http://last/login.php
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate
+            [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+            [HTTP_COOKIE] => PHPSESSID=mk6a0eqf4ipf6uaba49hcovrd0nn4lmh; theme=contrast
+            [PATH] => d:\openserver\modules\php\PHP_7.1\ext;d:\openserver\modules\php\PHP_7.1\pear;d:\openserver\modules\php\PHP_7.1\pear\bin;d:\openserver\modules\php\PHP_7.1;d:\openserver\modules\wget\bin;d:\openserver\modules\database\MySQL-5.7\bin;d:\openserver\modules\http\Apache_2.4-PHP_7.0-7.1\bin;d:\openserver\modules\http\Apache_2.4-PHP_7.0-7.1;C:\Windows\system32;C:\Windows;C:\Windows\system32\Wbem;C:\Windows\SysWOW64
+            [SystemRoot] => C:\Windows
+            [COMSPEC] => C:\Windows\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\Windows
+            [SERVER_SIGNATURE] => 
+            [SERVER_SOFTWARE] => Apache
+            [SERVER_NAME] => last
+            [SERVER_ADDR] => 127.0.0.1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => 127.0.0.1
+            [DOCUMENT_ROOT] => D:/OpenServer/domains/last
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => D:/OpenServer/domains/last
+            [SERVER_ADMIN] => [no address given]
+            [SCRIPT_FILENAME] => D:/OpenServer/domains/last/register.php
+            [REMOTE_PORT] => 55919
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => GET
+            [QUERY_STRING] => 
+            [REQUEST_URI] => /register.php
+            [SCRIPT_NAME] => /register.php
+            [PHP_SELF] => /register.php
+            [REQUEST_TIME_FLOAT] => 1750039446.926
+            [REQUEST_TIME] => 1750039446
+        )
+
+    [pdo] => PDO Object
+        (
+        )
+
+    [domains] => Array
+        (
+            [0] => gmail.com
+            [1] => yahoo.com
+            [2] => outlook.com
+            [3] => mail.ru
+            [4] => example.com
+        )
+
+    [posStmt] => PDOStatement Object
+        (
+            [queryString] => SELECT `id_Д`, `Название_Д` FROM `должности` ORDER BY `Название_Д`
+        )
+
+    [positions] => Array
+        (
+            [7] => Администратор
+            [3] => Аналитик
+            [9] => Б/Р
+            [2] => Бухгалтер
+            [1] => Дизайнер
+            [8] => Директор
+            [5] => Менеджер
+            [4] => Программист
+            [6] => Тестировщик
+        )
+
+    [errors] => Array
+        (
+        )
+
+    [title] => Тестировщик
+    [id] => 6
+    [dom] => example.com
+    [_SESSION] => Array
+        (
+            [captcha_letters] => Array
+                (
+                    [0] => W
+                    [1] => S
+                    [2] => I
+                    [3] => Z
+                    [4] => Z
+                )
+
+            [captcha_answer] => ZZISW
+        )
+
+    [host] => localhost
+    [db] => otchDB
+    [user] => root
+    [pass] => 
+    [charset] => utf8mb4
+    [dsn] => mysql:host=localhost;dbname=otchDB;charset=utf8mb4
+    [options] => Array
+        (
+            [3] => 2
+            [19] => 2
+        )
+
+    [captcha] => Array
+        (
+            [0] => W
+            [1] => S
+            [2] => I
+            [3] => Z
+            [4] => Z
+        )
+
+    [theme] => contrast
+    [isPrivileged] => 
+    [isdirrector] => 
+    [isbuhgalter] => 
+)
+
+
+[2025-06-16 05:06:22] [Пользовательская ошибка] Это тестовая фатальная ошибка в D:\OpenServer\domains\last\register.php:61
+Context: Array
+(
+    [_GET] => Array
+        (
+        )
+
+    [_POST] => Array
+        (
+        )
+
+    [_COOKIE] => Array
+        (
+            [PHPSESSID] => mk6a0eqf4ipf6uaba49hcovrd0nn4lmh
+            [theme] => contrast
+        )
+
+    [_FILES] => Array
+        (
+        )
+
+    [_SERVER] => Array
+        (
+            [HTTP_HOST] => last
+            [HTTP_CONNECTION] => keep-alive
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+            [HTTP_REFERER] => http://last/login.php
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate
+            [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+            [HTTP_COOKIE] => PHPSESSID=mk6a0eqf4ipf6uaba49hcovrd0nn4lmh; theme=contrast
+            [PATH] => d:\openserver\modules\php\PHP_7.1\ext;d:\openserver\modules\php\PHP_7.1\pear;d:\openserver\modules\php\PHP_7.1\pear\bin;d:\openserver\modules\php\PHP_7.1;d:\openserver\modules\wget\bin;d:\openserver\modules\database\MySQL-5.7\bin;d:\openserver\modules\http\Apache_2.4-PHP_7.0-7.1\bin;d:\openserver\modules\http\Apache_2.4-PHP_7.0-7.1;C:\Windows\system32;C:\Windows;C:\Windows\system32\Wbem;C:\Windows\SysWOW64
+            [SystemRoot] => C:\Windows
+            [COMSPEC] => C:\Windows\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\Windows
+            [SERVER_SIGNATURE] => 
+            [SERVER_SOFTWARE] => Apache
+            [SERVER_NAME] => last
+            [SERVER_ADDR] => 127.0.0.1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => 127.0.0.1
+            [DOCUMENT_ROOT] => D:/OpenServer/domains/last
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => D:/OpenServer/domains/last
+            [SERVER_ADMIN] => [no address given]
+            [SCRIPT_FILENAME] => D:/OpenServer/domains/last/register.php
+            [REMOTE_PORT] => 59545
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => GET
+            [QUERY_STRING] => 
+            [REQUEST_URI] => /register.php
+            [SCRIPT_NAME] => /register.php
+            [PHP_SELF] => /register.php
+            [REQUEST_TIME_FLOAT] => 1750039582.712
+            [REQUEST_TIME] => 1750039582
+        )
+
+    [pdo] => PDO Object
+        (
+        )
+
+    [domains] => Array
+        (
+            [0] => gmail.com
+            [1] => yahoo.com
+            [2] => outlook.com
+            [3] => mail.ru
+            [4] => example.com
+        )
+
+    [posStmt] => PDOStatement Object
+        (
+            [queryString] => SELECT `id_Д`, `Название_Д` FROM `должности` ORDER BY `Название_Д`
+        )
+
+    [positions] => Array
+        (
+            [7] => Администратор
+            [3] => Аналитик
+            [9] => Б/Р
+            [2] => Бухгалтер
+            [1] => Дизайнер
+            [8] => Директор
+            [5] => Менеджер
+            [4] => Программист
+            [6] => Тестировщик
+        )
+
+    [errors] => Array
+        (
+        )
+
+    [_SESSION] => Array
+        (
+            [captcha_letters] => Array
+                (
+                    [0] => W
+                    [1] => S
+                    [2] => I
+                    [3] => Z
+                    [4] => Z
+                )
+
+            [captcha_answer] => ZZISW
+        )
+
+    [host] => localhost
+    [db] => otchDB
+    [user] => root
+    [pass] => 
+    [charset] => utf8mb4
+    [dsn] => mysql:host=localhost;dbname=otchDB;charset=utf8mb4
+    [options] => Array
+        (
+            [3] => 2
+            [19] => 2
+        )
+
+)
+
+
+[2025-06-16 05:06:22] [Пользовательская ошибка] Это тестовая фатальная ошибка в D:\OpenServer\domains\last\register.php:61
+Context: Array
+(
+)
+
+
+[2025-06-16 05:08:40] [Уведомление] A session had already been started - ignoring session_start() в D:\OpenServer\domains\last\header.php:2
+Context: Array
+(
+    [_GET] => Array
+        (
+        )
+
+    [_POST] => Array
+        (
+        )
+
+    [_COOKIE] => Array
+        (
+            [PHPSESSID] => mk6a0eqf4ipf6uaba49hcovrd0nn4lmh
+            [theme] => contrast
+        )
+
+    [_FILES] => Array
+        (
+        )
+
+    [_SERVER] => Array
+        (
+            [HTTP_HOST] => last
+            [HTTP_CONNECTION] => keep-alive
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+            [HTTP_REFERER] => http://last/login.php
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate
+            [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+            [HTTP_COOKIE] => PHPSESSID=mk6a0eqf4ipf6uaba49hcovrd0nn4lmh; theme=contrast
+            [PATH] => d:\openserver\modules\php\PHP_7.1\ext;d:\openserver\modules\php\PHP_7.1\pear;d:\openserver\modules\php\PHP_7.1\pear\bin;d:\openserver\modules\php\PHP_7.1;d:\openserver\modules\wget\bin;d:\openserver\modules\database\MySQL-5.7\bin;d:\openserver\modules\http\Apache_2.4-PHP_7.0-7.1\bin;d:\openserver\modules\http\Apache_2.4-PHP_7.0-7.1;C:\Windows\system32;C:\Windows;C:\Windows\system32\Wbem;C:\Windows\SysWOW64
+            [SystemRoot] => C:\Windows
+            [COMSPEC] => C:\Windows\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\Windows
+            [SERVER_SIGNATURE] => 
+            [SERVER_SOFTWARE] => Apache
+            [SERVER_NAME] => last
+            [SERVER_ADDR] => 127.0.0.1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => 127.0.0.1
+            [DOCUMENT_ROOT] => D:/OpenServer/domains/last
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => D:/OpenServer/domains/last
+            [SERVER_ADMIN] => [no address given]
+            [SCRIPT_FILENAME] => D:/OpenServer/domains/last/register.php
+            [REMOTE_PORT] => 61230
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => GET
+            [QUERY_STRING] => 
+            [REQUEST_URI] => /register.php
+            [SCRIPT_NAME] => /register.php
+            [PHP_SELF] => /register.php
+            [REQUEST_TIME_FLOAT] => 1750039720.605
+            [REQUEST_TIME] => 1750039720
+        )
+
+    [pdo] => PDO Object
+        (
+        )
+
+    [domains] => Array
+        (
+            [0] => gmail.com
+            [1] => yahoo.com
+            [2] => outlook.com
+            [3] => mail.ru
+            [4] => example.com
+        )
+
+    [posStmt] => PDOStatement Object
+        (
+            [queryString] => SELECT `id_Д`, `Название_Д` FROM `должности` ORDER BY `Название_Д`
+        )
+
+    [positions] => Array
+        (
+            [7] => Администратор
+            [3] => Аналитик
+            [9] => Б/Р
+            [2] => Бухгалтер
+            [1] => Дизайнер
+            [8] => Директор
+            [5] => Менеджер
+            [4] => Программист
+            [6] => Тестировщик
+        )
+
+    [errors] => Array
+        (
+        )
+
+    [_SESSION] => Array
+        (
+            [captcha_letters] => Array
+                (
+                    [0] => L
+                    [1] => E
+                    [2] => B
+                    [3] => P
+                    [4] => W
+                )
+
+            [captcha_answer] => WPBEL
+        )
+
+    [host] => localhost
+    [db] => otchDB
+    [user] => root
+    [pass] => 
+    [charset] => utf8mb4
+    [dsn] => mysql:host=localhost;dbname=otchDB;charset=utf8mb4
+    [options] => Array
+        (
+            [3] => 2
+            [19] => 2
+        )
+
+    [captcha] => Array
+        (
+            [0] => L
+            [1] => E
+            [2] => B
+            [3] => P
+            [4] => W
+        )
+
+)
+
+
+[2025-06-16 05:08:40] [Уведомление] Undefined variable: email_dom в D:\OpenServer\domains\last\register.php:278
+Context: Array
+(
+    [_GET] => Array
+        (
+        )
+
+    [_POST] => Array
+        (
+        )
+
+    [_COOKIE] => Array
+        (
+            [PHPSESSID] => mk6a0eqf4ipf6uaba49hcovrd0nn4lmh
+            [theme] => contrast
+        )
+
+    [_FILES] => Array
+        (
+        )
+
+    [_SERVER] => Array
+        (
+            [HTTP_HOST] => last
+            [HTTP_CONNECTION] => keep-alive
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+            [HTTP_REFERER] => http://last/login.php
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate
+            [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+            [HTTP_COOKIE] => PHPSESSID=mk6a0eqf4ipf6uaba49hcovrd0nn4lmh; theme=contrast
+            [PATH] => d:\openserver\modules\php\PHP_7.1\ext;d:\openserver\modules\php\PHP_7.1\pear;d:\openserver\modules\php\PHP_7.1\pear\bin;d:\openserver\modules\php\PHP_7.1;d:\openserver\modules\wget\bin;d:\openserver\modules\database\MySQL-5.7\bin;d:\openserver\modules\http\Apache_2.4-PHP_7.0-7.1\bin;d:\openserver\modules\http\Apache_2.4-PHP_7.0-7.1;C:\Windows\system32;C:\Windows;C:\Windows\system32\Wbem;C:\Windows\SysWOW64
+            [SystemRoot] => C:\Windows
+            [COMSPEC] => C:\Windows\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\Windows
+            [SERVER_SIGNATURE] => 
+            [SERVER_SOFTWARE] => Apache
+            [SERVER_NAME] => last
+            [SERVER_ADDR] => 127.0.0.1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => 127.0.0.1
+            [DOCUMENT_ROOT] => D:/OpenServer/domains/last
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => D:/OpenServer/domains/last
+            [SERVER_ADMIN] => [no address given]
+            [SCRIPT_FILENAME] => D:/OpenServer/domains/last/register.php
+            [REMOTE_PORT] => 61230
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => GET
+            [QUERY_STRING] => 
+            [REQUEST_URI] => /register.php
+            [SCRIPT_NAME] => /register.php
+            [PHP_SELF] => /register.php
+            [REQUEST_TIME_FLOAT] => 1750039720.605
+            [REQUEST_TIME] => 1750039720
+        )
+
+    [pdo] => PDO Object
+        (
+        )
+
+    [domains] => Array
+        (
+            [0] => gmail.com
+            [1] => yahoo.com
+            [2] => outlook.com
+            [3] => mail.ru
+            [4] => example.com
+        )
+
+    [posStmt] => PDOStatement Object
+        (
+            [queryString] => SELECT `id_Д`, `Название_Д` FROM `должности` ORDER BY `Название_Д`
+        )
+
+    [positions] => Array
+        (
+            [7] => Администратор
+            [3] => Аналитик
+            [9] => Б/Р
+            [2] => Бухгалтер
+            [1] => Дизайнер
+            [8] => Директор
+            [5] => Менеджер
+            [4] => Программист
+            [6] => Тестировщик
+        )
+
+    [errors] => Array
+        (
+        )
+
+    [title] => Тестировщик
+    [id] => 6
+    [dom] => example.com
+    [_SESSION] => Array
+        (
+            [captcha_letters] => Array
+                (
+                    [0] => L
+                    [1] => E
+                    [2] => B
+                    [3] => P
+                    [4] => W
+                )
+
+            [captcha_answer] => WPBEL
+        )
+
+    [host] => localhost
+    [db] => otchDB
+    [user] => root
+    [pass] => 
+    [charset] => utf8mb4
+    [dsn] => mysql:host=localhost;dbname=otchDB;charset=utf8mb4
+    [options] => Array
+        (
+            [3] => 2
+            [19] => 2
+        )
+
+    [captcha] => Array
+        (
+            [0] => L
+            [1] => E
+            [2] => B
+            [3] => P
+            [4] => W
+        )
+
+    [theme] => contrast
+    [isPrivileged] => 
+    [isdirrector] => 
+    [isbuhgalter] => 
+)
+
+
+[2025-06-16 05:09:01] [Уведомление] A session had already been started - ignoring session_start() в D:\OpenServer\domains\last\header.php:2
+Context: Array
+(
+    [_GET] => Array
+        (
+        )
+
+    [_POST] => Array
+        (
+            [invite_code] => 7EAB3291500B6836
+            [position] => 7
+            [surname] => йййййй
+            [name] => йййййй
+            [patronym] => йййййййй
+            [login] => wwrgа
+            [email_local] => wwrgа
+            [email_dom] => gmail.com
+            [custom_dom] => 
+            [password] => q
+            [password_confirm] => q
+            [captcha] => qqs
+        )
+
+    [_COOKIE] => Array
+        (
+            [PHPSESSID] => mk6a0eqf4ipf6uaba49hcovrd0nn4lmh
+            [theme] => contrast
+        )
+
+    [_FILES] => Array
+        (
+        )
+
+    [_SERVER] => Array
+        (
+            [HTTP_HOST] => last
+            [HTTP_CONNECTION] => keep-alive
+            [CONTENT_LENGTH] => 298
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_ORIGIN] => http://last
+            [CONTENT_TYPE] => application/x-www-form-urlencoded
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+            [HTTP_REFERER] => http://last/register.php
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate
+            [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+            [HTTP_COOKIE] => PHPSESSID=mk6a0eqf4ipf6uaba49hcovrd0nn4lmh; theme=contrast
+            [PATH] => d:\openserver\modules\php\PHP_7.1\ext;d:\openserver\modules\php\PHP_7.1\pear;d:\openserver\modules\php\PHP_7.1\pear\bin;d:\openserver\modules\php\PHP_7.1;d:\openserver\modules\wget\bin;d:\openserver\modules\database\MySQL-5.7\bin;d:\openserver\modules\http\Apache_2.4-PHP_7.0-7.1\bin;d:\openserver\modules\http\Apache_2.4-PHP_7.0-7.1;C:\Windows\system32;C:\Windows;C:\Windows\system32\Wbem;C:\Windows\SysWOW64
+            [SystemRoot] => C:\Windows
+            [COMSPEC] => C:\Windows\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\Windows
+            [SERVER_SIGNATURE] => 
+            [SERVER_SOFTWARE] => Apache
+            [SERVER_NAME] => last
+            [SERVER_ADDR] => 127.0.0.1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => 127.0.0.1
+            [DOCUMENT_ROOT] => D:/OpenServer/domains/last
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => D:/OpenServer/domains/last
+            [SERVER_ADMIN] => [no address given]
+            [SCRIPT_FILENAME] => D:/OpenServer/domains/last/register.php
+            [REMOTE_PORT] => 61231
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => 
+            [REQUEST_URI] => /register.php
+            [SCRIPT_NAME] => /register.php
+            [PHP_SELF] => /register.php
+            [REQUEST_TIME_FLOAT] => 1750039741.018
+            [REQUEST_TIME] => 1750039741
+        )
+
+    [pdo] => PDO Object
+        (
+        )
+
+    [domains] => Array
+        (
+            [0] => gmail.com
+            [1] => yahoo.com
+            [2] => outlook.com
+            [3] => mail.ru
+            [4] => example.com
+        )
+
+    [posStmt] => PDOStatement Object
+        (
+            [queryString] => SELECT `id_Д`, `Название_Д` FROM `должности` ORDER BY `Название_Д`
+        )
+
+    [positions] => Array
+        (
+            [7] => Администратор
+            [3] => Аналитик
+            [9] => Б/Р
+            [2] => Бухгалтер
+            [1] => Дизайнер
+            [8] => Директор
+            [5] => Менеджер
+            [4] => Программист
+            [6] => Тестировщик
+        )
+
+    [errors] => Array
+        (
+            [0] => Логин может содержать только латинские буквы и цифры.
+            [1] => Email некорректен.
+            [2] => Капча введена неверно.
+        )
+
+    [expected] => WPBEL
+    [invite_code] => 7EAB3291500B6836
+    [posId] => 7
+    [surname] => йййййй
+    [name] => йййййй
+    [patronym] => йййййййй
+    [login] => wwrgа
+    [email_dom] => gmail.com
+    [custom_dom] => 
+    [password] => q
+    [password2] => q
+    [captcha_in] => qqs
+    [email_domain] => gmail.com
+    [email] => wwrgа@gmail.com
+    [dirStmt] => PDOStatement Object
+        (
+            [queryString] => SELECT id_Д FROM должности WHERE Название_Д = 'Директор'
+        )
+
+    [directorId] => 8
+    [_SESSION] => Array
+        (
+            [captcha_letters] => Array
+                (
+                    [0] => L
+                    [1] => E
+                    [2] => B
+                    [3] => P
+                    [4] => W
+                )
+
+            [captcha_answer] => WPBEL
+        )
+
+    [host] => localhost
+    [db] => otchDB
+    [user] => root
+    [pass] => 
+    [charset] => utf8mb4
+    [dsn] => mysql:host=localhost;dbname=otchDB;charset=utf8mb4
+    [options] => Array
+        (
+            [3] => 2
+            [19] => 2
+        )
+
+)
+
+
+[2025-06-16 07:27:48] [Уведомление] A session had already been started - ignoring session_start() в D:\OpenServer\domains\last\header.php:2
+Context: Array
+(
+    [_GET] => Array
+        (
+        )
+
+    [_POST] => Array
+        (
+        )
+
+    [_COOKIE] => Array
+        (
+            [PHPSESSID] => mk6a0eqf4ipf6uaba49hcovrd0nn4lmh
+            [theme] => contrast
+        )
+
+    [_FILES] => Array
+        (
+        )
+
+    [_SERVER] => Array
+        (
+            [HTTP_HOST] => last
+            [HTTP_CONNECTION] => keep-alive
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+            [HTTP_REFERER] => http://last/login.php
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate
+            [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+            [HTTP_COOKIE] => PHPSESSID=mk6a0eqf4ipf6uaba49hcovrd0nn4lmh; theme=contrast
+            [PATH] => d:\openserver\modules\php\PHP_7.1\ext;d:\openserver\modules\php\PHP_7.1\pear;d:\openserver\modules\php\PHP_7.1\pear\bin;d:\openserver\modules\php\PHP_7.1;d:\openserver\modules\wget\bin;d:\openserver\modules\database\MySQL-5.7\bin;d:\openserver\modules\http\Apache_2.4-PHP_7.0-7.1\bin;d:\openserver\modules\http\Apache_2.4-PHP_7.0-7.1;C:\Windows\system32;C:\Windows;C:\Windows\system32\Wbem;C:\Windows\SysWOW64
+            [SystemRoot] => C:\Windows
+            [COMSPEC] => C:\Windows\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\Windows
+            [SERVER_SIGNATURE] => 
+            [SERVER_SOFTWARE] => Apache
+            [SERVER_NAME] => last
+            [SERVER_ADDR] => 127.0.0.1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => 127.0.0.1
+            [DOCUMENT_ROOT] => D:/OpenServer/domains/last
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => D:/OpenServer/domains/last
+            [SERVER_ADMIN] => [no address given]
+            [SCRIPT_FILENAME] => D:/OpenServer/domains/last/register.php
+            [REMOTE_PORT] => 59468
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => GET
+            [QUERY_STRING] => 
+            [REQUEST_URI] => /register.php
+            [SCRIPT_NAME] => /register.php
+            [PHP_SELF] => /register.php
+            [REQUEST_TIME_FLOAT] => 1750048068.707
+            [REQUEST_TIME] => 1750048068
+        )
+
+    [pdo] => PDO Object
+        (
+        )
+
+    [domains] => Array
+        (
+            [0] => gmail.com
+            [1] => yahoo.com
+            [2] => outlook.com
+            [3] => mail.ru
+            [4] => example.com
+        )
+
+    [posStmt] => PDOStatement Object
+        (
+            [queryString] => SELECT `id_Д`, `Название_Д` FROM `должности` ORDER BY `Название_Д`
+        )
+
+    [positions] => Array
+        (
+            [7] => Администратор
+            [3] => Аналитик
+            [9] => Б/Р
+            [2] => Бухгалтер
+            [1] => Дизайнер
+            [8] => Директор
+            [5] => Менеджер
+            [4] => Программист
+            [10] => Прохиндей
+            [6] => Тестировщик
+        )
+
+    [errors] => Array
+        (
+        )
+
+    [_SESSION] => Array
+        (
+            [captcha_letters] => Array
+                (
+                    [0] => V
+                    [1] => B
+                    [2] => X
+                    [3] => O
+                    [4] => L
+                )
+
+            [captcha_answer] => LOXBV
+        )
+
+    [host] => localhost
+    [db] => otchDB
+    [user] => root
+    [pass] => 
+    [charset] => utf8mb4
+    [dsn] => mysql:host=localhost;dbname=otchDB;charset=utf8mb4
+    [options] => Array
+        (
+            [3] => 2
+            [19] => 2
+        )
+
+    [captcha] => Array
+        (
+            [0] => V
+            [1] => B
+            [2] => X
+            [3] => O
+            [4] => L
+        )
+
+)
+
+
+[2025-06-16 07:27:48] [Уведомление] Undefined variable: email_dom в D:\OpenServer\domains\last\register.php:278
+Context: Array
+(
+    [_GET] => Array
+        (
+        )
+
+    [_POST] => Array
+        (
+        )
+
+    [_COOKIE] => Array
+        (
+            [PHPSESSID] => mk6a0eqf4ipf6uaba49hcovrd0nn4lmh
+            [theme] => contrast
+        )
+
+    [_FILES] => Array
+        (
+        )
+
+    [_SERVER] => Array
+        (
+            [HTTP_HOST] => last
+            [HTTP_CONNECTION] => keep-alive
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+            [HTTP_REFERER] => http://last/login.php
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate
+            [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+            [HTTP_COOKIE] => PHPSESSID=mk6a0eqf4ipf6uaba49hcovrd0nn4lmh; theme=contrast
+            [PATH] => d:\openserver\modules\php\PHP_7.1\ext;d:\openserver\modules\php\PHP_7.1\pear;d:\openserver\modules\php\PHP_7.1\pear\bin;d:\openserver\modules\php\PHP_7.1;d:\openserver\modules\wget\bin;d:\openserver\modules\database\MySQL-5.7\bin;d:\openserver\modules\http\Apache_2.4-PHP_7.0-7.1\bin;d:\openserver\modules\http\Apache_2.4-PHP_7.0-7.1;C:\Windows\system32;C:\Windows;C:\Windows\system32\Wbem;C:\Windows\SysWOW64
+            [SystemRoot] => C:\Windows
+            [COMSPEC] => C:\Windows\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\Windows
+            [SERVER_SIGNATURE] => 
+            [SERVER_SOFTWARE] => Apache
+            [SERVER_NAME] => last
+            [SERVER_ADDR] => 127.0.0.1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => 127.0.0.1
+            [DOCUMENT_ROOT] => D:/OpenServer/domains/last
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => D:/OpenServer/domains/last
+            [SERVER_ADMIN] => [no address given]
+            [SCRIPT_FILENAME] => D:/OpenServer/domains/last/register.php
+            [REMOTE_PORT] => 59468
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => GET
+            [QUERY_STRING] => 
+            [REQUEST_URI] => /register.php
+            [SCRIPT_NAME] => /register.php
+            [PHP_SELF] => /register.php
+            [REQUEST_TIME_FLOAT] => 1750048068.707
+            [REQUEST_TIME] => 1750048068
+        )
+
+    [pdo] => PDO Object
+        (
+        )
+
+    [domains] => Array
+        (
+            [0] => gmail.com
+            [1] => yahoo.com
+            [2] => outlook.com
+            [3] => mail.ru
+            [4] => example.com
+        )
+
+    [posStmt] => PDOStatement Object
+        (
+            [queryString] => SELECT `id_Д`, `Название_Д` FROM `должности` ORDER BY `Название_Д`
+        )
+
+    [positions] => Array
+        (
+            [7] => Администратор
+            [3] => Аналитик
+            [9] => Б/Р
+            [2] => Бухгалтер
+            [1] => Дизайнер
+            [8] => Директор
+            [5] => Менеджер
+            [4] => Программист
+            [10] => Прохиндей
+            [6] => Тестировщик
+        )
+
+    [errors] => Array
+        (
+        )
+
+    [title] => Тестировщик
+    [id] => 6
+    [dom] => example.com
+    [_SESSION] => Array
+        (
+            [captcha_letters] => Array
+                (
+                    [0] => V
+                    [1] => B
+                    [2] => X
+                    [3] => O
+                    [4] => L
+                )
+
+            [captcha_answer] => LOXBV
+        )
+
+    [host] => localhost
+    [db] => otchDB
+    [user] => root
+    [pass] => 
+    [charset] => utf8mb4
+    [dsn] => mysql:host=localhost;dbname=otchDB;charset=utf8mb4
+    [options] => Array
+        (
+            [3] => 2
+            [19] => 2
+        )
+
+    [captcha] => Array
+        (
+            [0] => V
+            [1] => B
+            [2] => X
+            [3] => O
+            [4] => L
+        )
+
+    [theme] => contrast
+    [isPrivileged] => 
+    [isdirrector] => 
+    [isbuhgalter] => 
+)
+
+
+[2025-06-16 08:14:26] [Уведомление] A session had already been started - ignoring session_start() в D:\OpenServer\domains\last\header.php:2
+Context: Array
+(
+    [_GET] => Array
+        (
+        )
+
+    [_POST] => Array
+        (
+        )
+
+    [_COOKIE] => Array
+        (
+            [PHPSESSID] => mk6a0eqf4ipf6uaba49hcovrd0nn4lmh
+            [theme] => dark
+        )
+
+    [_FILES] => Array
+        (
+        )
+
+    [_SERVER] => Array
+        (
+            [HTTP_HOST] => last
+            [HTTP_CONNECTION] => keep-alive
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+            [HTTP_REFERER] => http://last/login.php
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate
+            [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+            [HTTP_COOKIE] => PHPSESSID=mk6a0eqf4ipf6uaba49hcovrd0nn4lmh; theme=dark
+            [PATH] => d:\openserver\modules\php\PHP_7.1\ext;d:\openserver\modules\php\PHP_7.1\pear;d:\openserver\modules\php\PHP_7.1\pear\bin;d:\openserver\modules\php\PHP_7.1;d:\openserver\modules\wget\bin;d:\openserver\modules\database\MySQL-5.7\bin;d:\openserver\modules\http\Apache_2.4-PHP_7.0-7.1\bin;d:\openserver\modules\http\Apache_2.4-PHP_7.0-7.1;C:\Windows\system32;C:\Windows;C:\Windows\system32\Wbem;C:\Windows\SysWOW64
+            [SystemRoot] => C:\Windows
+            [COMSPEC] => C:\Windows\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\Windows
+            [SERVER_SIGNATURE] => 
+            [SERVER_SOFTWARE] => Apache
+            [SERVER_NAME] => last
+            [SERVER_ADDR] => 127.0.0.1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => 127.0.0.1
+            [DOCUMENT_ROOT] => D:/OpenServer/domains/last
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => D:/OpenServer/domains/last
+            [SERVER_ADMIN] => [no address given]
+            [SCRIPT_FILENAME] => D:/OpenServer/domains/last/register.php
+            [REMOTE_PORT] => 63535
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => GET
+            [QUERY_STRING] => 
+            [REQUEST_URI] => /register.php
+            [SCRIPT_NAME] => /register.php
+            [PHP_SELF] => /register.php
+            [REQUEST_TIME_FLOAT] => 1750050866.051
+            [REQUEST_TIME] => 1750050866
+        )
+
+    [pdo] => PDO Object
+        (
+        )
+
+    [domains] => Array
+        (
+            [0] => gmail.com
+            [1] => yahoo.com
+            [2] => outlook.com
+            [3] => mail.ru
+            [4] => example.com
+        )
+
+    [posStmt] => PDOStatement Object
+        (
+            [queryString] => SELECT `id_Д`, `Название_Д` FROM `должности` ORDER BY `Название_Д`
+        )
+
+    [positions] => Array
+        (
+            [7] => Администратор
+            [3] => Аналитик
+            [9] => Б/Р
+            [2] => Бухгалтер
+            [1] => Дизайнер
+            [8] => Директор
+            [5] => Менеджер
+            [4] => Программист
+            [10] => Прохиндей
+            [6] => Тестировщик
+        )
+
+    [errors] => Array
+        (
+        )
+
+    [_SESSION] => Array
+        (
+            [page_views] => 7
+            [captcha_letters] => Array
+                (
+                    [0] => I
+                    [1] => N
+                    [2] => M
+                    [3] => G
+                    [4] => K
+                )
+
+            [captcha_answer] => KGMNI
+        )
+
+    [host] => localhost
+    [db] => otchDB
+    [user] => root
+    [pass] => 
+    [charset] => utf8mb4
+    [dsn] => mysql:host=localhost;dbname=otchDB;charset=utf8mb4
+    [options] => Array
+        (
+            [3] => 2
+            [19] => 2
+        )
+
+    [captcha] => Array
+        (
+            [0] => I
+            [1] => N
+            [2] => M
+            [3] => G
+            [4] => K
+        )
+
+)
+
+
+[2025-06-16 08:14:26] [Уведомление] Undefined variable: email_dom в D:\OpenServer\domains\last\register.php:275
+Context: Array
+(
+    [_GET] => Array
+        (
+        )
+
+    [_POST] => Array
+        (
+        )
+
+    [_COOKIE] => Array
+        (
+            [PHPSESSID] => mk6a0eqf4ipf6uaba49hcovrd0nn4lmh
+            [theme] => dark
+        )
+
+    [_FILES] => Array
+        (
+        )
+
+    [_SERVER] => Array
+        (
+            [HTTP_HOST] => last
+            [HTTP_CONNECTION] => keep-alive
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+            [HTTP_REFERER] => http://last/login.php
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate
+            [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+            [HTTP_COOKIE] => PHPSESSID=mk6a0eqf4ipf6uaba49hcovrd0nn4lmh; theme=dark
+            [PATH] => d:\openserver\modules\php\PHP_7.1\ext;d:\openserver\modules\php\PHP_7.1\pear;d:\openserver\modules\php\PHP_7.1\pear\bin;d:\openserver\modules\php\PHP_7.1;d:\openserver\modules\wget\bin;d:\openserver\modules\database\MySQL-5.7\bin;d:\openserver\modules\http\Apache_2.4-PHP_7.0-7.1\bin;d:\openserver\modules\http\Apache_2.4-PHP_7.0-7.1;C:\Windows\system32;C:\Windows;C:\Windows\system32\Wbem;C:\Windows\SysWOW64
+            [SystemRoot] => C:\Windows
+            [COMSPEC] => C:\Windows\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\Windows
+            [SERVER_SIGNATURE] => 
+            [SERVER_SOFTWARE] => Apache
+            [SERVER_NAME] => last
+            [SERVER_ADDR] => 127.0.0.1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => 127.0.0.1
+            [DOCUMENT_ROOT] => D:/OpenServer/domains/last
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => D:/OpenServer/domains/last
+            [SERVER_ADMIN] => [no address given]
+            [SCRIPT_FILENAME] => D:/OpenServer/domains/last/register.php
+            [REMOTE_PORT] => 63535
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => GET
+            [QUERY_STRING] => 
+            [REQUEST_URI] => /register.php
+            [SCRIPT_NAME] => /register.php
+            [PHP_SELF] => /register.php
+            [REQUEST_TIME_FLOAT] => 1750050866.051
+            [REQUEST_TIME] => 1750050866
+        )
+
+    [pdo] => PDO Object
+        (
+        )
+
+    [domains] => Array
+        (
+            [0] => gmail.com
+            [1] => yahoo.com
+            [2] => outlook.com
+            [3] => mail.ru
+            [4] => example.com
+        )
+
+    [posStmt] => PDOStatement Object
+        (
+            [queryString] => SELECT `id_Д`, `Название_Д` FROM `должности` ORDER BY `Название_Д`
+        )
+
+    [positions] => Array
+        (
+            [7] => Администратор
+            [3] => Аналитик
+            [9] => Б/Р
+            [2] => Бухгалтер
+            [1] => Дизайнер
+            [8] => Директор
+            [5] => Менеджер
+            [4] => Программист
+            [10] => Прохиндей
+            [6] => Тестировщик
+        )
+
+    [errors] => Array
+        (
+        )
+
+    [title] => Тестировщик
+    [id] => 6
+    [dom] => example.com
+    [_SESSION] => Array
+        (
+            [page_views] => 8
+            [captcha_letters] => Array
+                (
+                    [0] => I
+                    [1] => N
+                    [2] => M
+                    [3] => G
+                    [4] => K
+                )
+
+            [captcha_answer] => KGMNI
+        )
+
+    [host] => localhost
+    [db] => otchDB
+    [user] => root
+    [pass] => 
+    [charset] => utf8mb4
+    [dsn] => mysql:host=localhost;dbname=otchDB;charset=utf8mb4
+    [options] => Array
+        (
+            [3] => 2
+            [19] => 2
+        )
+
+    [captcha] => Array
+        (
+            [0] => I
+            [1] => N
+            [2] => M
+            [3] => G
+            [4] => K
+        )
+
+    [theme] => dark
+    [isPrivileged] => 
+    [isdirrector] => 
+    [isbuhgalter] => 
+)
+
+
+[2025-06-16 08:16:29] [Уведомление] A session had already been started - ignoring session_start() в D:\OpenServer\domains\last\header.php:2
+Context: Array
+(
+    [_GET] => Array
+        (
+        )
+
+    [_POST] => Array
+        (
+        )
+
+    [_COOKIE] => Array
+        (
+            [PHPSESSID] => mk6a0eqf4ipf6uaba49hcovrd0nn4lmh
+            [theme] => dark
+        )
+
+    [_FILES] => Array
+        (
+        )
+
+    [_SERVER] => Array
+        (
+            [HTTP_HOST] => last
+            [HTTP_CONNECTION] => keep-alive
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+            [HTTP_REFERER] => http://last/login.php
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate
+            [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+            [HTTP_COOKIE] => PHPSESSID=mk6a0eqf4ipf6uaba49hcovrd0nn4lmh; theme=dark
+            [PATH] => d:\openserver\modules\php\PHP_7.1\ext;d:\openserver\modules\php\PHP_7.1\pear;d:\openserver\modules\php\PHP_7.1\pear\bin;d:\openserver\modules\php\PHP_7.1;d:\openserver\modules\wget\bin;d:\openserver\modules\database\MySQL-5.7\bin;d:\openserver\modules\http\Apache_2.4-PHP_7.0-7.1\bin;d:\openserver\modules\http\Apache_2.4-PHP_7.0-7.1;C:\Windows\system32;C:\Windows;C:\Windows\system32\Wbem;C:\Windows\SysWOW64
+            [SystemRoot] => C:\Windows
+            [COMSPEC] => C:\Windows\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\Windows
+            [SERVER_SIGNATURE] => 
+            [SERVER_SOFTWARE] => Apache
+            [SERVER_NAME] => last
+            [SERVER_ADDR] => 127.0.0.1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => 127.0.0.1
+            [DOCUMENT_ROOT] => D:/OpenServer/domains/last
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => D:/OpenServer/domains/last
+            [SERVER_ADMIN] => [no address given]
+            [SCRIPT_FILENAME] => D:/OpenServer/domains/last/register.php
+            [REMOTE_PORT] => 63535
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => GET
+            [QUERY_STRING] => 
+            [REQUEST_URI] => /register.php
+            [SCRIPT_NAME] => /register.php
+            [PHP_SELF] => /register.php
+            [REQUEST_TIME_FLOAT] => 1750050989.969
+            [REQUEST_TIME] => 1750050989
+        )
+
+    [pdo] => PDO Object
+        (
+        )
+
+    [domains] => Array
+        (
+            [0] => gmail.com
+            [1] => yahoo.com
+            [2] => outlook.com
+            [3] => mail.ru
+            [4] => example.com
+        )
+
+    [posStmt] => PDOStatement Object
+        (
+            [queryString] => SELECT `id_Д`, `Название_Д` FROM `должности` ORDER BY `Название_Д`
+        )
+
+    [positions] => Array
+        (
+            [7] => Администратор
+            [3] => Аналитик
+            [9] => Б/Р
+            [2] => Бухгалтер
+            [1] => Дизайнер
+            [8] => Директор
+            [5] => Менеджер
+            [4] => Программист
+            [10] => Прохиндей
+            [6] => Тестировщик
+        )
+
+    [errors] => Array
+        (
+        )
+
+    [_SESSION] => Array
+        (
+            [page_views] => 9
+            [captcha_letters] => Array
+                (
+                    [0] => Q
+                    [1] => N
+                    [2] => X
+                    [3] => G
+                    [4] => Z
+                )
+
+            [captcha_answer] => ZGXNQ
+        )
+
+    [host] => localhost
+    [db] => otchDB
+    [user] => root
+    [pass] => 
+    [charset] => utf8mb4
+    [dsn] => mysql:host=localhost;dbname=otchDB;charset=utf8mb4
+    [options] => Array
+        (
+            [3] => 2
+            [19] => 2
+        )
+
+    [captcha] => Array
+        (
+            [0] => Q
+            [1] => N
+            [2] => X
+            [3] => G
+            [4] => Z
+        )
+
+)
+
+
+[2025-06-16 08:16:29] [Уведомление] Undefined variable: email_dom в D:\OpenServer\domains\last\register.php:275
+Context: Array
+(
+    [_GET] => Array
+        (
+        )
+
+    [_POST] => Array
+        (
+        )
+
+    [_COOKIE] => Array
+        (
+            [PHPSESSID] => mk6a0eqf4ipf6uaba49hcovrd0nn4lmh
+            [theme] => dark
+        )
+
+    [_FILES] => Array
+        (
+        )
+
+    [_SERVER] => Array
+        (
+            [HTTP_HOST] => last
+            [HTTP_CONNECTION] => keep-alive
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+            [HTTP_REFERER] => http://last/login.php
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate
+            [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+            [HTTP_COOKIE] => PHPSESSID=mk6a0eqf4ipf6uaba49hcovrd0nn4lmh; theme=dark
+            [PATH] => d:\openserver\modules\php\PHP_7.1\ext;d:\openserver\modules\php\PHP_7.1\pear;d:\openserver\modules\php\PHP_7.1\pear\bin;d:\openserver\modules\php\PHP_7.1;d:\openserver\modules\wget\bin;d:\openserver\modules\database\MySQL-5.7\bin;d:\openserver\modules\http\Apache_2.4-PHP_7.0-7.1\bin;d:\openserver\modules\http\Apache_2.4-PHP_7.0-7.1;C:\Windows\system32;C:\Windows;C:\Windows\system32\Wbem;C:\Windows\SysWOW64
+            [SystemRoot] => C:\Windows
+            [COMSPEC] => C:\Windows\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\Windows
+            [SERVER_SIGNATURE] => 
+            [SERVER_SOFTWARE] => Apache
+            [SERVER_NAME] => last
+            [SERVER_ADDR] => 127.0.0.1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => 127.0.0.1
+            [DOCUMENT_ROOT] => D:/OpenServer/domains/last
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => D:/OpenServer/domains/last
+            [SERVER_ADMIN] => [no address given]
+            [SCRIPT_FILENAME] => D:/OpenServer/domains/last/register.php
+            [REMOTE_PORT] => 63535
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => GET
+            [QUERY_STRING] => 
+            [REQUEST_URI] => /register.php
+            [SCRIPT_NAME] => /register.php
+            [PHP_SELF] => /register.php
+            [REQUEST_TIME_FLOAT] => 1750050989.969
+            [REQUEST_TIME] => 1750050989
+        )
+
+    [pdo] => PDO Object
+        (
+        )
+
+    [domains] => Array
+        (
+            [0] => gmail.com
+            [1] => yahoo.com
+            [2] => outlook.com
+            [3] => mail.ru
+            [4] => example.com
+        )
+
+    [posStmt] => PDOStatement Object
+        (
+            [queryString] => SELECT `id_Д`, `Название_Д` FROM `должности` ORDER BY `Название_Д`
+        )
+
+    [positions] => Array
+        (
+            [7] => Администратор
+            [3] => Аналитик
+            [9] => Б/Р
+            [2] => Бухгалтер
+            [1] => Дизайнер
+            [8] => Директор
+            [5] => Менеджер
+            [4] => Программист
+            [10] => Прохиндей
+            [6] => Тестировщик
+        )
+
+    [errors] => Array
+        (
+        )
+
+    [title] => Тестировщик
+    [id] => 6
+    [dom] => example.com
+    [_SESSION] => Array
+        (
+            [page_views] => 10
+            [captcha_letters] => Array
+                (
+                    [0] => Q
+                    [1] => N
+                    [2] => X
+                    [3] => G
+                    [4] => Z
+                )
+
+            [captcha_answer] => ZGXNQ
+        )
+
+    [host] => localhost
+    [db] => otchDB
+    [user] => root
+    [pass] => 
+    [charset] => utf8mb4
+    [dsn] => mysql:host=localhost;dbname=otchDB;charset=utf8mb4
+    [options] => Array
+        (
+            [3] => 2
+            [19] => 2
+        )
+
+    [captcha] => Array
+        (
+            [0] => Q
+            [1] => N
+            [2] => X
+            [3] => G
+            [4] => Z
+        )
+
+    [theme] => dark
+    [isPrivileged] => 
+    [isdirrector] => 
+    [isbuhgalter] => 
+)
+
+
