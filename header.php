@@ -65,7 +65,7 @@ if (isset($_SESSION['user_id'])) {
           <a href="subscriptions.php">Подписки</a>
         <?php endif; ?>
         <?php if ($isPrivileged): ?>
-          <a href="management.php">Менеджмент</a>
+          <a href="management.php">Кадровый учет</a>
         <?php endif; ?>
         <?php if ($isdirrector): ?>
           <a href="companyredactor.php">Компания</a>

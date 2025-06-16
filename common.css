@@ -3,6 +3,7 @@ body {
     margin: 0;
     font-family: 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.6;
+      padding-top: 80px; /* Примерная высота хедера, можно подстроить */
 }
 
 .container {
@@ -37,8 +38,15 @@ a.button {
 }
 
 .header {
-    padding: 15px 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff; /* Заменить, если используется другая тема */
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
 
 .header-inner {
     display: flex;
