@@ -1,0 +1,143 @@
+/* common.css */
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h1, h2, h3, h4, h5 {
+    margin-top: 1.5em;
+    font-weight: normal;
+}
+.card {
+  background: #f9f9f9;
+  color: #222;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: background 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a.button {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color .2s;
+}
+
+.header {
+    padding: 15px 40px;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+	color: inherit ;
+}
+
+.nav a {
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.theme-switcher {
+    margin-right: 20px;
+}
+
+.theme-switcher button {
+    background: none;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.theme-switcher button.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.auth .button {
+    margin-left: 10px;
+}
+  /* Фильтры в одну строку */
+  .filter-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: flex-end;
+    margin-bottom: 20px;
+  }
+  .filter-form label {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  /* Кнопки в стиле .button */
+  button.button {
+    padding: 8px 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color .2s;
+  }
+  button.button:hover {
+    background-color: #0056b3;
+  }
+/* Формы */
+form label {
+    display: block;
+
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="number"],
+form select {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid;
+}
+
+/* Таблицы */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+thead {
+    background-color: inherit;
+}
+th, td {
+    padding: 12px 15px;
+    border: 1px solid;
+    text-align: left;
+}
+tbody tr:hover {
+    background-color: rgba(0,0,0,0.05);
+}
+.sp {
+    color: #000000;
+}

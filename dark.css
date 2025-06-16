@@ -1,0 +1,21 @@
+/* dark.css */
+body { background: #111; color: #ddd; }
+.header { background-color: #222; color: #fff; }
+.nav a { color: #aaa; }
+.logo { color: #fff; }
+.nav a:hover { color: #fff; }
+a.button { background-color: #444; color: #eee; border: none; }
+a.button:hover { background-color: #666; }
+button.button { background-color: #444; color: #eee; border: none; }
+button.button:hover { background-color: #666; }
+form input, form select { background: #222; border-color: #444; color: #ddd; }
+thead { background-color: #333; }
+tbody tr:hover { background-color: #2a2a2a; }
+table, th, td { border-color: #444; }
+.card {
+  background: #2b2b2b;
+  color: #eee;
+}
+.sp {
+    color: #eee;
+}

@@ -1,0 +1,13 @@
+/* light.css */
+body { background: #fff; color: #333; }
+.header { background-color: #111; color: #fff; }
+.nav a { color: #ddd; }
+.logo { color: #ddd; }
+.nav a:hover { color: #fff; }
+a.button { background-color: #007BFF; color: #fff; border: none; }
+a.button:hover { background-color: #0056b3; }
+button.button { background-color: #007BFF; color: #fff; border: none; }
+button.button:hover { background-color: #0056b3; }
+form input, form select { border-color: #ccc; }
+thead { background-color: #f4f4f4; }
+tbody tr:hover { background-color: #fafafa; }

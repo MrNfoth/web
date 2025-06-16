@@ -1,0 +1,44 @@
+/* contrast.css */
+body { background: #000; color: #ffeb3b; }
+.header { background-color: #000; border-bottom: 2px solid #ffeb3b; }
+.nav a { color: #00e676; }
+.logo a{ color: #00e676; }
+.logo a:hover { color: #ffeb3b; }
+.nav a:hover { color: #ffeb3b; }
+a.button {
+    background-color: #000;
+    color: #00e676;
+    border: 2px solid #00e676;
+}
+a.button:hover {
+    background-color: #00e676;
+    color: #000;
+}
+button.button {
+    background-color: #000;
+    color: #00e676;
+    border: 2px solid #00e676;
+}
+button.button:hover {
+    background-color: #00e676;
+    color: #000;
+}
+form input, form select {
+    background: #000;
+    border: 2px solid #ffeb3b;
+    color: #ffeb3b;
+}
+thead { background-color: #000; }
+tbody tr:hover { background-color: #111; }
+table, th, td { border-color: #ffeb3b; }
+.card {
+  background-color: #000;
+  color: #00e676;
+  border: 2px solid #ffeb3b;
+}
+.text{
+    color: #00e676;  
+}
+.sp {
+    color: #ffeb3b;
+}
